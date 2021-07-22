@@ -314,7 +314,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #639c3e;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -561,7 +561,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #639c3e;
 }
 
 @media (max-width: 1200px) {
@@ -645,11 +645,19 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
   height: 100vh;
+}
+
+.bgpos{
+  background-image: url(../images/green.png);
+}
+
+.bgneg{
+  background-image: url(../images/red.png);
 }
 
 .welcome-area .header-text {

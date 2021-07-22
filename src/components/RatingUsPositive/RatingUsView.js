@@ -34,7 +34,7 @@ export const RatingUsView = (props) => {
                 </div>
             </header>
 
-            <div className="welcome-area" id="welcome">
+            <div className="welcome-area bgpos" id="welcome">
                 <div className="header-text">
                     <div className="container">
                         <div className="row">
