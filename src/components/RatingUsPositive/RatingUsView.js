@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Col, Form, Row} from "react-bootstrap";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const RatingUsView = (props) => {
