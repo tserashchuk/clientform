@@ -1,12 +1,9 @@
 import React from "react";
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-import {RatingUs} from "./components/RatingUs/RatingUsComponent";
+import {RatingUsPositive} from "./components/RatingUsPositive/RatingUsComponent";
+import {RatingUsNegative} from "./components/RatingUsNegative/RatingUsComponent";
 
 function App() {
     return (
@@ -14,7 +11,8 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path='/' children={Add}/>
-                    <Route exact path="/:id" children={RatingUs}/>
+                    <Route exact path="/positive/:id" children={RatingUsPositive}/>
+                    <Route exact path="/negative/:id" children={RatingUsNegative}/>
                 </Switch>
             </Router>
         </>

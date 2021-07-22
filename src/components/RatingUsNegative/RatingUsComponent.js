@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {RatingUsView} from "./RatingUsView";
 
 
-export const RatingUs = (props) => {
+export const RatingUsNegative = (props) => {
     let id = props.match.params.id;
     return (<RatingUsWorker storeID={id}/>)
 }
