@@ -58,7 +58,7 @@ export const RatingUsView = (props) => {
                                      data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                                     <div className="features-small-item">
                                         <div className="icon">
-                                            <i><img src="/public/assets/images/featured-item-01.png" alt=""/></i>
+                                            <i><img src="/assets/images/featured-item-01.png" alt=""/></i>
                                         </div>
                                         <h5 className="features-title">migom-dostavka</h5>
                                         <p>Доставка продуктов за 20 минут</p>
@@ -69,7 +69,7 @@ export const RatingUsView = (props) => {
                                      data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                                     <div className="features-small-item">
                                         <div className="icon">
-                                            <i><img src="/public/assets/images/featured-item-01.png" alt=""/></i>
+                                            <i><img src="/assets/images/featured-item-01.png" alt=""/></i>
                                         </div>
                                         <h5 className="features-title">evropochta.by</h5>
                                         <p>Доставка посылок по всей Беларуси</p>
@@ -80,7 +80,7 @@ export const RatingUsView = (props) => {
                                      data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                                     <div className="features-small-item">
                                         <div className="icon">
-                                            <i><img src="/public/assets/images/featured-item-01.png" alt=""/></i>
+                                            <i><img src="/assets/images/featured-item-01.png" alt=""/></i>
                                         </div>
                                         <h5 className="features-title">evroopt.by</h5>
                                         <p>Приоритетом сети магазинов «Евроопт» является работа с покупателем</p>
