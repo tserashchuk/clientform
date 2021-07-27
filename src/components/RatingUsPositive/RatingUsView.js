@@ -13,12 +13,12 @@ export const RatingUsView = (props) => {
                             <nav className="main-nav">
 
                                 <a href="#welcome" className="logo">
-                                    <img src="/assets/images/logo.03cd226b.svg" alt="Softy Pinko"/>
+                                    <img src="https://evropochta.by/.compiled/images/logo.e0944394.svg" alt="Softy Pinko"/>
                                 </a>
 
                                 <ul className="nav">
-                                    <li><a href="https://e-dostavka.by/" className="active">Сайт e-dostavka.by</a></li>
-                                    <li><a href="#features">Работа в E-Dostavka</a></li>
+                                    <li><a href="https://e-dostavka.by/" className="active">Сайт evropochta.by</a></li>
+                                    <li><a href="#features">Работа в ЕВРОПОЧТА</a></li>
                                     <li><a href="#work-process">Сотрудничество</a></li>
                                     <li><a href="#testimonials">О компании</a></li>
                                     <li><a href="#pricing-plans">Инвесторам</a></li>
