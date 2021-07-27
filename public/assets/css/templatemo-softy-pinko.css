@@ -653,11 +653,11 @@ welcome
 }
 
 .bgpos{
-  background-image: url(../images/green.png);
+  background-image: url(../images/green.jpg);
 }
 
 .bgneg{
-  background-image: url(../images/red.png);
+  background-image: url(../images/red.jpg);
 }
 
 .welcome-area .header-text {
