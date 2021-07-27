@@ -116,11 +116,7 @@ const DetailedForm = () => {
                     <label htmlFor="inputAddress">Имя доставщика</label>
                     <input type="text" className="form-control" id="inputAddress" placeholder="Антон"/>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="inputAddress2">Код вашей клиентской карты</label>
-                    <input type="text" className="form-control" id="inputAddress2"
-                           placeholder="ED987..."/>
-                </div>
+
                 <div className="form-row">
                     <div className="form-group col-md-6">
                         <label htmlFor="inputCity">Сотрудники вежливы?</label>
