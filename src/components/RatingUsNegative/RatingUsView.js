@@ -17,7 +17,7 @@ export const RatingUsView = (props) => {
                                 </a>
 
                                   <ul className="nav">
-                                    <li><a href="https://e-dostavka.by/" className="active">Сайт evropochta.by</a></li>
+                                    <li><a href="https://evropochta.by/" className="active">Сайт evropochta.by</a></li>
                                     <li><a href="#features">Работа в ЕВРОПОЧТА</a></li>
                                     <li><a href="#work-process">Сотрудничество</a></li>
                                     <li><a href="#testimonials">О компании</a></li>
