@@ -123,14 +123,14 @@ const DetailedForm = () => {
                 </div>
                 <div className="form-row">
                     <div className="form-group col-md-6">
-                        <label htmlFor="inputCity">Вы вкусно покушали?</label>
+                        <label htmlFor="inputCity">Сотрудники вежливы?</label>
                         <input type="text" className="form-control" id="inputCity"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label htmlFor="inputState">Продукты были свежими?</label>
+                        <label htmlFor="inputState">Состояние посылки?</label>
                         <select id="inputState" className="form-control">
                             <option selected>Нормально</option>
-                            <option>Крайне свежие</option>
+                            <option>Упаковка деформирована</option>
                             <option>Есть недочеты</option>
                             <option>На все 10 баллов</option>
                         </select>
@@ -154,8 +154,8 @@ const DetailedForm = () => {
 const InfoText = (props) => {
     return (<>
         <h1>Благодарим вас за отзыв</h1>
-        <p>Рейтинг вашей работы {props.storeID} повышен :) <br/> Работа приносит радость - это хорошо. Вам всегда есть
-            чем занться чтобы почувствовать счастье - ваша жизнь сплошной кайф.</p>
+        <p>Номер вашего заказа - {props.storeID} Спасибо что пользуетесь услугами нашего сервиса <br/> Если вы хотите оставить рекомендации по улучшению сервиса - заполните форму ниже.
+        Это сообщение получат руководители струкрутных подразделений компании.</p>
         <p>Расскажете подробнее? Заполните небольшую анкету</p>
           <a href="#features" className="main-button-slider"
                                    onClick={props.detailedFormViewHandler}>Залолнить анкету</a>

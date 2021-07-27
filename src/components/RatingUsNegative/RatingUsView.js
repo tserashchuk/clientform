@@ -106,7 +106,7 @@ const DetailedForm = () => {
                         <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label htmlFor="inputPassword4">Что вам не понравилось?</label>
+                        <label htmlFor="inputPassword4">Что вам понравилось?</label>
                         <input className="form-control" id="inputPassword4" placeholder=""/>
                     </div>
                 </div>
@@ -121,14 +121,14 @@ const DetailedForm = () => {
                 </div>
                 <div className="form-row">
                     <div className="form-group col-md-6">
-                        <label htmlFor="inputCity">Вы вкусно покушали?</label>
+                        <label htmlFor="inputCity">Сотрудники вежливы?</label>
                         <input type="text" className="form-control" id="inputCity"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label htmlFor="inputState">Продукты были свежими?</label>
+                        <label htmlFor="inputState">Состояние посылки?</label>
                         <select id="inputState" className="form-control">
                             <option selected>Нормально</option>
-                            <option>Крайне свежие</option>
+                            <option>Упаковка деформирована</option>
                             <option>Есть недочеты</option>
                             <option>На все 10 баллов</option>
                         </select>
@@ -152,8 +152,7 @@ const DetailedForm = () => {
 const InfoText = (props) => {
     return (<>
         <h1>Благодарим вас за отзыв</h1>
-        <p>Рейтинг вашей работы {props.storeID} не понижен, это ведь просто тест :) <br/> В обычном случае мы предупредим клиента о снижении рейтинга и при критическом снижении проведем аудит</p>
-        <p>Этот подход так же поможет пользователю выплеснуть негатив в безопасном для бренда месте.</p>
+        <p>Номер вашей посылки - {props.storeID}. Рейтинг ответственных сотрудников понижен. <br/> Заполните форму что бы отправить письмо руководителям структурных подразделений - они постараются решить возникшие вопросы</p>
         <p>Расскажете подробнее? Заполните небольшую анкету</p>
           <a href="#features" className="main-button-slider"
                                    onClick={props.detailedFormViewHandler}>Залолнить анкету</a>
