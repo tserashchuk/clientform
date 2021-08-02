@@ -139,9 +139,9 @@ const DetailedForm = () => {
 
                 </div>
                 <div className="form-group">
-                    <div className="form-check">
+                    <div>
                          <label htmlFor="inputAddess">Телефон</label>
-                                                                    <input type="text" className="form-control" id="inputAddrss" placeholder="+375..."/>
+                                                                    <input type="text" className="form-control" id="inputAddrss" placeholder="Введите номер телефона"/>
 
                         <input className="form-check-input" type="checkbox" id="gridCheck"/>
                             <label className="form-check-label" htmlFor="gridCheck">
