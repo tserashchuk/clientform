@@ -130,7 +130,7 @@ const DetailedForm = () => {
                         <label htmlFor="inputState">Состояние посылки?</label>
                         <select id="inputState" className="form-control">
                                              <option selected>Состояние хорошее</option>
-                            <option>Удволетворительно</option>
+                            <option>Удовлетворительно</option>
                             <option>Есть недочеты</option>
                             <option>Состояние плохое</option>
                             <option>Упаковка деформирована</option>
