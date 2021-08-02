@@ -109,11 +109,10 @@ const DetailedForm = () => {
                         <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
                     </div>
                                       <div className="form-group col-md-6">
-                        <label htmlFor="inputState">Вам понравилось качество сервиса?</label>
+                        <label htmlFor="inputState">Вам понравился сервис?</label>
                         <select id="inputState" className="form-control">
-                            <option selected>Нормально</option>
-                            <option>Есть недочеты</option>
-                            <option>Понравилось</option>
+                            <option selected>Да</option>
+                            <option>Нет</option>
                         </select>
                     </div>
                 </div>
