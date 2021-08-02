@@ -108,8 +108,14 @@ const DetailedForm = () => {
                         <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label htmlFor="inputPassword4">Что вам понравилось?</label>
-                        <input className="form-control" id="inputPassword4" placeholder=""/>
+                        <input type="radio" className="btn-check" name="options-outlined" id="success-outlined"
+                               autoComplete="off" checked/>
+                            <label className="btn btn-outline-success" htmlFor="success-outlined">Да</label>
+
+                            <input type="radio" className="btn-check"  id="danger-outlined"
+                                   autoComplete="off"/>
+                            <label className="btn btn-outline-danger" htmlFor="danger-outlined">Нет</label>
+
                     </div>
                 </div>
                 <div className="form-group">
@@ -150,7 +156,7 @@ const DetailedForm = () => {
 const InfoText = (props) => {
     return (<>
         <h1>Благодарим вас за отзыв</h1>
-        <p>Номер вашего заказа - {props.storeID} Спасибо что пользуетесь услугами нашего сервиса <br/> Если вы хотите оставить рекомендации по улучшению сервиса - заполните форму ниже.
+        <p>Номер вашего заказа - {props.storeID} Спасибо, что пользуетесь услугами нашего сервиса. <br/> Если вы хотите оставить рекомендации по улучшению сервиса - заполните форму ниже.
         Это сообщение получат руководители струкрутных подразделений компании.</p>
         <p>Расскажете подробнее? Заполните небольшую анкету</p>
           <a href="#features" className="main-button-slider"

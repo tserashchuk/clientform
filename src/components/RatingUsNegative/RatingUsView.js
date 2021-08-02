@@ -106,8 +106,14 @@ const DetailedForm = () => {
                         <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label htmlFor="inputPassword4">Что вам понравилось?</label>
-                        <input className="form-control" id="inputPassword4" placeholder=""/>
+                        <input type="radio" className="btn-check" name="options-outlined" id="success-outlined"
+                               autoComplete="off" checked/>
+                            <label className="btn btn-outline-success" htmlFor="success-outlined">Да</label>
+
+                            <input type="radio" className="btn-check"  id="danger-outlined"
+                                   autoComplete="off"/>
+                            <label className="btn btn-outline-danger" htmlFor="danger-outlined">Нет</label>
+
                     </div>
                 </div>
                 <div className="form-group">
