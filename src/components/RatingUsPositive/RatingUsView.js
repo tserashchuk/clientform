@@ -128,7 +128,7 @@ const DetailedForm = () => {
                             <option selected>Нормально</option>
                             <option>Упаковка деформирована</option>
                             <option>Есть недочеты</option>
-                            <option>На все 10 баллов</option>
+                            <option>Состояние хорошее</option>
                         </select>
                     </div>
 
