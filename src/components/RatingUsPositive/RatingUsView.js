@@ -123,15 +123,19 @@ const DetailedForm = () => {
                 <div className="form-row">
                     <div className="form-group col-md-6">
                         <label htmlFor="inputCity">Сотрудники вежливы?</label>
-                        <input type="text" className="form-control" id="inputCity"/>
+                        <select id="inputCity" className="form-control">
+                            <option selected>Да</option>
+                            <option>Нет</option>
+                        </select>
                     </div>
                     <div className="form-group col-md-6">
                         <label htmlFor="inputState">Состояние посылки?</label>
                         <select id="inputState" className="form-control">
-                            <option selected>Нормально</option>
-                            <option>Упаковка деформирована</option>
+                            <option selected>Состояние хорошее</option>
+                            <option>Удволетворительно</option>
                             <option>Есть недочеты</option>
-                            <option>Состояние хорошее</option>
+                            <option>Состояние плохое</option>
+                            <option>Упаковка деформирована</option>
                         </select>
                     </div>
 
