@@ -108,8 +108,8 @@ const DetailedForm = () => {
                                       <div className="form-group col-md-6">
                         <label htmlFor="inputState">Вам понравился сервис?</label>
                         <select id="inputState" className="form-control">
-                            <option selected>Да</option>
-                            <option>Нет</option>
+                            <option>Да</option>
+                            <option selected>Нет</option>
                         </select>
                     </div>
                 </div>
