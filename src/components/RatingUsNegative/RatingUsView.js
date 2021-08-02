@@ -140,10 +140,13 @@ const DetailedForm = () => {
                 </div>
                 <div className="form-group">
                     <div className="form-check">
+                                                                    <input type="text" className="form-control" id="inputAddress" placeholder="Телефон"/>
+
                         <input className="form-check-input" type="checkbox" id="gridCheck"/>
                             <label className="form-check-label" htmlFor="gridCheck">
                                 Перезвоните мне
                             </label>
+
                     </div>
                 </div>
                 <button type="submit" className="btn btn-primary">Отправить форму</button>
