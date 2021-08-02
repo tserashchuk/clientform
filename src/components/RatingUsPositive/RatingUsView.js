@@ -103,7 +103,6 @@ const DetailedForm = () => {
         <>
             <form>
                 <div className="form-row">
-                    <div className="form-row">
                     <div className="form-group col-md-6">
                         <label htmlFor="inputEmail4">Email</label>
                         <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
@@ -114,7 +113,6 @@ const DetailedForm = () => {
                             <option selected>Да</option>
                             <option>Нет</option>
                         </select>
-                    </div>
                 </div>
                 </div>
                 <div className="form-group">
